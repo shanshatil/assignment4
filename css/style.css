@@ -1,1 +1,149 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/*header section*/
+
+header{
+	width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #ff00001f;
+}
+
+.logo{
+	width: 20%;
+    float: left;
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    padding: 0px 0px;
+    margin: -14px;
+}
+
+.menu{
+	width: 60%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 0px;
+}
+
+nav ul li{
+	display: inline-block;
+    margin-left: 50px;
+    list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.icons{
+	width: 20%;
+	float: left;
+	display: inline-block;
+
+}
+
+.icons ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.icons ul li{
+	display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.icons ul li a{
+	padding: 2px 2px;
+}
+.fa, .fas {
+    font-weight: 900;
+    margin: 5px;
+}
+
+/*Header section end*/
+
+/*Banner Section*/
+
+.banner{
+	background: url(../img/background.jpg)no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+
+
+.banner-main {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.banner-main h2 {
+    color: black;
+    font-size: 48px;
+}
+
+.banner-main span {
+    display: block;
+    border-bottom: 2px solid #161616;
+    width: 98%;
+    margin: 10px auto;
+}
+
+.banner-main p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.banner-btn {
+	border: 1px solid #77d5d9;
+	background: transparent;  
+    padding: 12px;
+    width: 130px;
+    color: red;
+    font-size: 16px;   
+    
+}
+
+.banner-icons{
+    font-weight: 900;
+    margin: 70px;
+    color: red;
+    font-size: 30px;
+}
